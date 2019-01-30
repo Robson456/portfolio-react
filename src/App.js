@@ -5,7 +5,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
-import Background from './background.jpg'
+
 
 
 class App extends Component {
@@ -13,7 +13,6 @@ class App extends Component {
     return (
       <BrowserRouter>
           <div className="App">
-          <img src={Background} alt="Background"/>
             <Navbar/>
             <Switch>
               <Route exact path='/' component={Home}/>
@@ -21,6 +20,7 @@ class App extends Component {
               <Route path='/Contact' component={Contact}/>
               <Route path='/Projects' component={Projects}/>
             </Switch>
+            
           </div>
       </BrowserRouter>
     );
