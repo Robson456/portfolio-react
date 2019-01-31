@@ -9,12 +9,12 @@ export default class Home extends Component {
     return (
       <div className="container">
         <h2 class="red-text text-lighten-1 center">Hello there</h2> 
-          <h4 class="red-text text-lighten-1 center">Hello I work with:</h4> 
+          <h4 class="red-text text-lighten-1 center">I work with:</h4> 
           <ul className="center">
-            <li><img src={Phaser} alt="" class="circle" class="responsive-img" class="icon"/></li>
-            <li><img src={Python} alt="" class="circle" class="responsive-img" class="icon"/></li>
-            <li><img src={react} alt="" class="circle" class="responsive-img" class="icon"/></li>
-            <li><img src={Materialize} alt="" class="circle" class="responsive-img" class="icon"/></li>
+            <li><img src={Phaser} alt="Phaser" class="circle" class="responsive-img" class="icon"/></li>
+            <li><img src={Python} alt="Python" class="circle" class="responsive-img" class="icon"/></li>
+            <li><img src={react} alt="React" class="circle" class="responsive-img" class="icon"/></li>
+            <li><img src={Materialize} alt="MaterializeCSS" class="circle" class="responsive-img" class="icon"/></li>
           </ul>
       </div>
     )

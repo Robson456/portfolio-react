@@ -17,3 +17,9 @@ code {
   width: 128px;
   height: 128px;
 }
+a{
+  color: black
+}
+html {
+  scroll-behavior: smooth;
+}
