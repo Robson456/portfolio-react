@@ -1,29 +1,34 @@
 import React, { Component } from 'react'
-import Me from '../me.jpg'
+import Phaser from '../phaser.png'
+import Python from '../python.png'
+import react from '../react.png'
+import Materialize from '../materialize.png'
+import Bootstrap from '../bootstrap.png'
 
 export default class About extends Component {
   render() {
     return (
       <div className="container">
-        <h4 class="red-text text-lighten-1 center">About me</h4>
-        
-          <div className="col s12 m8">
-            
-            <div className="card horizontal">
-              <div className="card-image">
-                <img src={Me} alt="My photo" class="responsive-img"/>
-              </div>
-              <div className="card-stacked">
-                <div className="card-stacked">
-                  <div className="card-content">
-                    <h4>Robert Przepiórka</h4>
-                    <p>Hello im in high school im intrested in front-end. I like to netfilx and chill.(pierdoły) </p>
+        <h4 className="center">About me </h4>
+          <blockquote>
+            <p className="flow-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque eaque non nesciunt ducimus fuga magnam praesentium unde repellat blanditiis ea consectetur corrupti vero laboriosam labore at ratione, veritatis modi itaque.</p>
+          </blockquote>
+            <div className="center ">
+              <h3 className="center">Skills</h3>
+                <div className="row">
+                  <div className="col s6">
+                    <img src={Python} alt="" className="responsive-image icon"/>
+                    <img src={Phaser} alt="" className="responsive-image icon"/>
+                    <img src={Bootstrap} alt="" className="responsive-image icon"/>
+                  </div>
+                  <div className="col s6">
+                    <img src={react} alt="" className="responsive-image icon"/>
+                    <img src={Materialize} alt="" className="responsive-image icon"/>
                   </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
+
+      </div>
       
     )
   }

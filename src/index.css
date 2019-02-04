@@ -14,8 +14,9 @@ code {
     monospace;
 }
 .icon{
-  width: 128px;
-  height: 128px;
+  width: 256px;
+  height: 265px;
+  margin: 30px;
 }
 a{
   color: black
@@ -23,3 +24,14 @@ a{
 html {
   scroll-behavior: smooth;
 }
+.imageR{
+  transform: rotate(25deg);
+ 
+}
+.ptag{
+  position: relative;
+}
+.transparentBG {
+  background-color: rgba(0,0,0,0);
+}
+

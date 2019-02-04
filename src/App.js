@@ -5,6 +5,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
+import Footer from './components/Footer'
 
 
 
@@ -14,16 +15,14 @@ class App extends Component {
       <BrowserRouter>
           <div className="App">
             <Navbar/>
-            {/* <Switch>
+            <Switch>
               <Route exact path='/' component={Home}/>
               <Route path='/About' component={About}/>
               <Route path='/Contact' component={Contact}/>
               <Route path='/Projects' component={Projects}/>
-            </Switch> */}
-            <Home/>
-            <Projects/>
-            <About/>
-            <Contact/>
+            </Switch>
+            
+            {/* <Footer/> */}
             
           </div>
       </BrowserRouter>
