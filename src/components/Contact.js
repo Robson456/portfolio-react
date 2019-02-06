@@ -24,7 +24,8 @@ export default class Contact extends Component {
       <div className="container" style={{marginTop:'2rem'}}>
         <h4 className="center">Contact me</h4>
         <div className="col s12 15 offset-12">
-          <form name="contact" method="POST" netlify>
+
+          <form name="contact" method="POST" netlify="true">
 
             <div className="row">
               <div className="input-field col s6">
