@@ -17,7 +17,7 @@ export default class Projects extends Component {
                      <img src={Portfolio} alt="" className="responsive-image"/>
                    </div>
                    <div className="card-component">
-                   <h3 className="black-text center">Bootstrap Portfolio</h3>
+                   <h5 className="black-text center">Bootstrap Portfolio</h5>
                      <p className="center">Portfolio in Bootstrap</p>
                    </div>
                    <div className="card-action">

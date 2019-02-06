@@ -9,12 +9,12 @@ export default class About extends Component {
   render() {
     return (
       <div className="container">
-        <h4 className="center">About me </h4>
+        <h3 className="center">About me </h3>
           <blockquote>
             <p className="flow-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque eaque non nesciunt ducimus fuga magnam praesentium unde repellat blanditiis ea consectetur corrupti vero laboriosam labore at ratione, veritatis modi itaque.</p>
           </blockquote>
             <div className="center ">
-              <h3 className="center">Skills</h3>
+              <h3 className="center">My skills</h3>
                 <div className="row">
                   <div className="col s6">
                     <img src={Python} alt="" className="responsive-image icon"/>
