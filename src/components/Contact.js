@@ -6,7 +6,7 @@ export default class Contact extends Component {
       <div className="container" style={{marginTop:'2rem'}}>
         <h4 className="center">Contact me</h4>
         <div className="col s12 15 offset-12">
-          <form action="">
+          <form name="contact" method="POST" data-netlify="true">
             <div className="row">
               <div class="input-field col s6">
                 <i class="material-icons prefix">account_circle</i>
