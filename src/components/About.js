@@ -11,8 +11,9 @@ export default class About extends Component {
       <div className="container">
         <h3 className="center">About me </h3>
           <blockquote>
-            <p className="flow-text">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Neque eaque non nesciunt ducimus fuga magnam praesentium unde repellat blanditiis ea consectetur corrupti vero laboriosam labore at ratione, veritatis modi itaque.</p>
-            <p className="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo in cumque iusto accusamus, soluta vero officiis corrupti, velit necessitatibus est, fugit sit at nam ad ducimus sint aperiam odit! Saepe!</p>
+            <p className="flow-text">Chuj kurwa dupa cycki</p>
+            <p className="flow-text">Bartłomiej Nowicki</p>
+
           </blockquote>
             <div className="center ">
               <h3 className="center">My skills</h3>
