@@ -5,9 +5,6 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
-import Footer from './components/Footer'
-
-
 
 class App extends Component {
   render() {
@@ -21,8 +18,6 @@ class App extends Component {
               <Route path='/Contact' component={Contact}/>
               <Route path='/Projects' component={Projects}/>
             </Switch>
-            
-            {/* <Footer/> */}
             
           </div>
       </BrowserRouter>

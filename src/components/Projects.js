@@ -10,7 +10,7 @@ export default class Projects extends Component {
       <h3 className="black-text center" style={{marginBottom:'2rem'}}> Projects</h3> 
              <div className="row">
 
-               <div className="col s4">
+               <div className="col s12 m4">
 
                   <div className="card  z-depth-3">
                    <div className="card-image">
@@ -27,7 +27,7 @@ export default class Projects extends Component {
 
                  
                </div>
-               <div className="col s4">
+               <div className="col s12 m4">
                  <div className="card z-depth-3">
                    <div className="card-image">
                      <img src={Rick} alt="" className="responsive-image" />
