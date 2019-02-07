@@ -4,18 +4,24 @@ import { Link, NavLink} from 'react-router-dom'
 
 export default class Navbar extends Component {
   render() {
-    return (
+    return (  
       <div>
         <nav className="transparent">
-            <div className="nav-wraper">
-                <a href="#" className="brand-logo black-text" style={{paddingLeft:'5rem'}}>Robert Przepiorka</a>
-                <ul className="right">
+            <div className="container">
+                <a href="#!" className="brand-logo black-text">Robson</a>
+                <a href="#" data-target="mobile-demo" className ="sidenav-trigger right"><i className="material-icons" style={{color:'black'}}>menu</i></a>  
+                <ul className="right hide-on-med-and-down">
                     <li><Link to="/" className="black-text">Home</Link></li>
                     <li><Link to="/About" className="black-text">About Me</Link></li>
                     <li><NavLink to="/Contact" className="black-text">Contact</NavLink></li>
                 </ul>
             </div>
         </nav>
+            <ul className="sidenav" id="mobile-demo">
+              <li><Link to="/" className="black-text">Home</Link></li>
+              <li><Link to="/About" className="black-text">About Me</Link></li>
+              <li><NavLink to="/Contact" className="black-text">Contact</NavLink></li>
+            </ul>
       </div>
     )
   }

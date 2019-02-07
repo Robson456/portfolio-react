@@ -16,12 +16,12 @@ export default class About extends Component {
             <div className="center ">
               <h3 className="center">My skills</h3>
                 <div className="row">
-                  <div className="col s6">
+                  <div className="col s12 m6">
                     <img src={Python} alt="" className="responsive-image icon"/>
                     <img src={Phaser} alt="" className="responsive-image icon"/>
                     <img src={Bootstrap} alt="" className="responsive-image icon"/>
                   </div>
-                  <div className="col s6">
+                  <div className="col s12 m6">
                     <img src={react} alt="" className="responsive-image icon"/>
                     <img src={Materialize} alt="" className="responsive-image icon"/>
                   </div>
