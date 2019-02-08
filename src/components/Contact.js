@@ -33,8 +33,19 @@ export default class Contact extends Component {
       <div className="container" style={{marginTop:'2rem'}}>
         <h4 className="center">Contact me</h4>
         <div className="col s12 15 offset-12">
+        <form name="contact" netlify onSubmit={this.handleSubmit}>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
  
-          <form
+          {/* <form
             name="contact" 
             method="POST" 
             netlify
@@ -73,7 +84,7 @@ export default class Contact extends Component {
             <button className="btn waves-effect waves-light" type="submit" name="action">Submit
               <i className="material-icons right ">send</i>
             </button>
-          </form>  
+          </form>   */}
         
         
         </div>  
