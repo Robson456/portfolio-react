@@ -25,11 +25,9 @@ export default class Contact extends Component {
         <h4 className="center">Contact me</h4>
         <div className="col s12 15 offset-12">
 
-          <form 
-            name="contact"
+          <form name="contact" 
             method="POST"
             data-netlify="true"
-            data-netlify-honeypot="bot-field"
           >
           <input type="hidden" name="form-name" value="contact-form" />
             <div className="row">
