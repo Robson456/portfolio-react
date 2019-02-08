@@ -10,17 +10,16 @@ import Home from './components/Home'
 class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter>
           <div className="App">
             <Navbar/>
-            <Switch>
-              <Route exact path='/' component={Home}/>
-              <Route path='/about' component={About}/>
-              <Route path='/contact' component={Contact}/>
-            </Switch>
+            <Route exact path='/' component={Home}/>
+            <Route path='/about' component={About}/>
+            <Route path='/contact' component={Contact}/>
+          
             
           </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
