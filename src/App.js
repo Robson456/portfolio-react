@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter, Route,} from 'react-router-dom'
 import About from './components/About'
 import Contact from './components/Contact'
 import Navbar from './components/Navbar'
