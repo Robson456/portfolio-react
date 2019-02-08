@@ -37,6 +37,9 @@ export default class Contact extends Component {
         <div className="col s12 15 offset-12">
  
           <form
+            name="contact" 
+            method="POST" 
+            data-netlify="true"
             onSubmit={this.handleSubmit}
             >   
             <input type = 'hidden' name="bot-field" />
