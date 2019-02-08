@@ -25,31 +25,9 @@ export default class Contact extends Component {
       <div className="container" style={{marginTop:'2rem'}}>
         <h4 className="center">Contact me</h4>
         <div className="col s12 15 offset-12">
-                  
-        <NetlifyForm name='Contact Form'>
-          {({ loading, error, success }) => (
-            <div>
-              {loading &&
-                <div>Loading...</div>
-              }
-              {error &&
-                <div>Your information was not sent. Please try again later.</div>
-              }
-              {success &&
-                <div>Thank you for contacting us!</div>
-              }
-              {!loading && !success &&
-                <div>
-                  <input type='text' name='Name' required />
-                  <textarea name='Message' required />
-                  <button>Submit</button>
-                </div>
-              }
-            </div>
-          )}
-        </NetlifyForm>
+  
 
-          {/* <form
+          <form
             name="contact" 
             method="post"
             data-netlify="true" 
@@ -87,7 +65,7 @@ export default class Contact extends Component {
             <button className="btn waves-effect waves-light" type="submit" name="action">Submit
               <i className="material-icons right ">send</i>
             </button>
-          </form>   */}
+          </form>  
         
         
         </div>  
