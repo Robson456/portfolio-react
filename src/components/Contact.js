@@ -25,7 +25,7 @@ export default class Contact extends Component {
         <h4 className="center">Contact me</h4>
         <div className="col s12 15 offset-12">
 
-          <form  method="POST" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true">
 
             <div className="row">
               <div className="input-field col s6">
@@ -55,7 +55,7 @@ export default class Contact extends Component {
             <label htmlFor="message">Your massage</label>
           </div>
           <div className="field">
-            <div data-netlify-recaptcha="true "></div>
+            <div data-netlify-recaptcha="true"></div>
           </div>
 
           </form>  
