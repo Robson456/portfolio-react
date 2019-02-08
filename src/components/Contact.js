@@ -1,38 +1,43 @@
 import React, { Component } from 'react'
-import NetlifyForm from 'react-netlify-form'
+
+  const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  }
 
 export default class Contact extends Component {
-  constructor(props){
-    super(props)
-    this.state = {
-      name: '',
-      firstname: '',
-      lastname: '',
-      message: ''
-    }
+  
+  constructor(props) {
+    super(props);
+    this.state = { 
+      name: "",
+      email: "",
+      message: "" };
   }
+  handleSubmit = e => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...this.state })
+    })
+      .then(() => alert("Success!"))
+      .catch(error => alert(error));
 
-  onChangeInput = e => {
-    e.preventDefault()
-    const { name, value } = e.target
-    this.setState(prevState => ({ ...prevState, [name]: value }))
+    e.preventDefault();
+  };
+  // handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
-    console.log(this.state)
-  }
 
   render() {
     return (
+      
       <div className="container" style={{marginTop:'2rem'}}>
         <h4 className="center">Contact me</h4>
         <div className="col s12 15 offset-12">
-  
-
+ 
           <form
-            name="contact"
-            method="post"
-            action="/"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
+            onSubmit={this.handleSubmit}
             >   
             <input type = 'hidden' name="bot-field" />
             <div className="row">
