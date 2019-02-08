@@ -24,8 +24,28 @@ export default class Contact extends Component {
       <div className="container" style={{marginTop:'2rem'}}>
         <h4 className="center">Contact me</h4>
         <div className="col s12 15 offset-12">
+        <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 
-          <form
+          {/* <form
             name="contact" 
             method="post"
             data-netlify="true" 
@@ -63,7 +83,7 @@ export default class Contact extends Component {
             <button className="btn waves-effect waves-light" type="submit" name="action">Submit
               <i className="material-icons right ">send</i>
             </button>
-          </form>  
+          </form>   */}
         
         
         </div>  
