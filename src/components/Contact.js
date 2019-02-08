@@ -27,7 +27,7 @@ export default class Contact extends Component {
 
           <form 
             name="contact"
-            method="post"
+            method="POST"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
           >
@@ -59,14 +59,11 @@ export default class Contact extends Component {
             <textarea  id="message" className="materialize-textarea" name='message' onChange = {this.onChangeInput}></textarea>
             <label htmlFor="message">Your massage</label>
           </div>
-          <div className="field">
-            <div data-netlify-recaptcha="true"></div>
-          </div>
 
-          </form>  
             <button className="btn waves-effect waves-light" type="submit" name="action">Submit
               <i className="material-icons right ">send</i>
             </button>
+          </form>  
         
         
         </div>  
