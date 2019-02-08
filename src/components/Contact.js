@@ -26,8 +26,7 @@ export default class Contact extends Component {
         <div className="col s12 15 offset-12">
 
           <form name="contact" 
-            method="POST"
-            data-netlify="true"
+            netlify="true"
           >
           <input type="hidden" name="form-name" value="contact-form" />
             <div className="row">
