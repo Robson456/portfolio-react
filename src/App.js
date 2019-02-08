@@ -10,7 +10,7 @@ import Home from './components/Home'
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
           <div className="App">
             <Navbar/>
             <Route exact path='/' component={Home}/>
@@ -19,7 +19,7 @@ class App extends Component {
           
             
           </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
