@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link, NavLink} from 'react-router-dom'
+import Home from './Home';
 
 
 export default class Navbar extends Component {
@@ -8,7 +9,7 @@ export default class Navbar extends Component {
       <div>
         <nav className="transparent">
             <div className="container">
-                <a href="#!" className="brand-logo black-text">Robson</a>
+                <Link to="/" className="brand-logo black-text">Robson</Link>
                 <a href="#" data-target="mobile-demo" className ="sidenav-trigger right"><i className="material-icons" style={{color:'black'}}>menu</i></a>  
                 <ul className="right hide-on-med-and-down">
                     <li><Link to="/" className="black-text">Home</Link></li>
