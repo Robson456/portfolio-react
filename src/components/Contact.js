@@ -26,8 +26,6 @@ export default class Contact extends Component {
 
     e.preventDefault();
   };
-  // handleChange = e => this.setState({ [e.target.name]: e.target.value });
-
 
   render() {
     return (
@@ -39,7 +37,8 @@ export default class Contact extends Component {
           <form
             name="contact" 
             method="POST" 
-            data-netlify="true"
+            netlify
+            data-netlify-honeybot="true"
             onSubmit={this.handleSubmit}
             >   
             <input type = 'hidden' name="bot-field" />
