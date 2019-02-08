@@ -28,12 +28,12 @@ export default class Contact extends Component {
   
 
           <form
-            name="contact" 
+            name="contact"
             method="post"
-            data-netlify="true" 
+            data-netlify="true"
             data-netlify-honeypot="bot-field"
-          >
-          <input type="hidden" name="contact" value="contact-form" />
+            >   
+            <input type = 'hidden' name="bot-field" />
             <div className="row">
               <div className="input-field col s6">
                 <i className="material-icons prefix">account_circle</i>
