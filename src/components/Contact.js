@@ -25,8 +25,13 @@ export default class Contact extends Component {
         <h4 className="center">Contact me</h4>
         <div className="col s12 15 offset-12">
 
-          <form name="contact" method="POST" data-netlify="true">
-
+          <form 
+            name="ask-question"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
+          <input type="hidden" name="form-name" value="ask-question" />
             <div className="row">
               <div className="input-field col s6">
                 <i className="material-icons prefix">account_circle</i>
