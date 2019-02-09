@@ -1,31 +1,6 @@
 import React, { Component } from 'react'
 
-  const encode = (data) => {
-    return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
-  }
-
 export default class Contact extends Component {
-  
-  constructor(props) {
-    super(props);
-    this.state = { 
-      name: "",
-      email: "",
-      message: "" };
-  }
-  handleSubmit = e => {
-    fetch("/?no-cache=1", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state })
-    })
-      .then(() => alert("Success!"))
-      .catch(error => alert(error));
-
-    e.preventDefault();
-  };
 
   render() {
     return (

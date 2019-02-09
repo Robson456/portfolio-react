@@ -4,6 +4,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
+import ThankYou from './components/ThankYou'
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
             <Route exact path='/' component={Home}/>
             <Route path='/about' component={About}/>
             <Route path='/contact' component={Contact}/>
+            <Route path='/thankyou' component={ThankYou}/>
           
             
           </div>
