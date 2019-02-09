@@ -36,6 +36,7 @@ export default class Contact extends Component {
  
  
           <form action="https://formspree.io/przepiorkarobin@gmail.com" method="POST">   
+          <input type="hidden" name="_next" value="https://robinson456.netlify.com/ThankYou"/>
             <div className="row">
               <div className="input-field col s6">
                 <i className="material-icons prefix">account_circle</i>
