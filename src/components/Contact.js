@@ -33,26 +33,9 @@ export default class Contact extends Component {
       <div className="container" style={{marginTop:'2rem'}}>
         <h4 className="center">Contact me</h4>
         <div className="col s12 15 offset-12">
-        <form name="contact" netlify onSubmit={this.handleSubmit}>
-  <p>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
  
-          {/* <form
-            name="contact" 
-            method="POST" 
-            netlify
-            data-netlify-honeybot="true"
-            onSubmit={this.handleSubmit}
-            >   
-            <input type = 'hidden' name="bot-field" />
+ 
+          <form action="https://formspree.io/przepiorkarobin@gmail.com" method="POST">   
             <div className="row">
               <div className="input-field col s6">
                 <i className="material-icons prefix">account_circle</i>
@@ -81,10 +64,10 @@ export default class Contact extends Component {
             <label htmlFor="message">Your massage</label>
           </div>
 
-            <button className="btn waves-effect waves-light" type="submit" name="action">Submit
+            <button className="btn waves-effect waves-light" type="submit">Submit
               <i className="material-icons right ">send</i>
             </button>
-          </form>   */}
+          </form>  
         
         
         </div>  
