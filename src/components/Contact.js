@@ -15,7 +15,7 @@ export default class Contact extends Component {
             <div className="row">
               <div className="input-field col s6">
                 <i className="material-icons prefix">account_circle</i>
-                <input id="first_name" type="text" className="validate" name='firstname' onChange = {this.onChangeInput}></input>
+                <input id="first_name" type="text" className="validate" name='firstname'></input>
                 <label htmlFor="first_name">First Name</label>
               </div>
               <div className="input-field col s6">
@@ -31,12 +31,12 @@ export default class Contact extends Component {
             </div>
           <div className="input-field">
             <i className="material-icons prefix">email</i>
-            <input type="email" id="email" className="validate" name='email' onChange = {this.onChangeInput}/>
+            <input type="email" id="email" className="validate" name='email'/>
             <label htmlFor="emial">Your Email</label>
           </div>
           <div className="input-field">
             <i className="material-icons prefix">message</i>
-            <textarea  id="message" className="materialize-textarea" name='message' onChange = {this.onChangeInput}></textarea>
+            <textarea  id="message" className="materialize-textarea" name='message' ></textarea>
             <label htmlFor="message">Your massage</label>
           </div>
 

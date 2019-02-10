@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Rick from '../Skynetv1.png'
-import Portfolio from '../Portfolio.PNG'
+import Rick from '../img/Skynetv1.webp'
+import Portfolio from '../img/Portfolio.webp'
 
 
 export default class Projects extends Component {
