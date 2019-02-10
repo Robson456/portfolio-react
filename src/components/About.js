@@ -5,6 +5,7 @@ import react from '../img/react.webp'
 import Materialize from '../img/materialize.webp'
 import Bootstrap from '../img/bootstrap.webp'
 
+
 export default class About extends Component {
   render() {
     return (
@@ -18,13 +19,13 @@ export default class About extends Component {
               <h3 className="center">My skills</h3>
                 <div className="row">
                   <div className="col s12 m6">
-                    <img src={Python} alt="" className="responsive-image icon"/>
-                    <img src={Phaser} alt="" className="responsive-image icon"/>
-                    <img src={Bootstrap} alt="" className="responsive-image icon"/>
+                    <img src={Python} alt="Python" className="responsive-image icon"/>
+                    <img src={Phaser} alt="Phaser" className="responsive-image icon"/>
+                    <img src={Bootstrap} alt="Bootstrap" className="responsive-image icon"/>
                   </div>
                   <div className="col s12 m6">
-                    <img src={react} alt="" className="responsive-image icon"/>
-                    <img src={Materialize} alt="" className="responsive-image icon"/>
+                    <img src={react} alt="React" className="responsive-image icon"/>
+                    <img src={Materialize} alt="Materialize" className="responsive-image icon"/>
                   </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@ export default class Projects extends Component {
 
                   <div className="card  z-depth-3">
                    <div className="card-image">
-                     <img src={Portfolio} alt="" className="responsive-image"/>
+                     <img src={Portfolio} alt="Portfolio website" className="responsive-image"/>
                    </div>
                    <div className="card-component">
                    <h5 className="black-text center">Bootstrap Portfolio</h5>
@@ -30,7 +30,7 @@ export default class Projects extends Component {
                <div className="col s12 m4">
                  <div className="card z-depth-3">
                    <div className="card-image">
-                     <img src={Rick} alt="" className="responsive-image" />
+                     <img src={Rick} alt="Skynet Phaser game" className="responsive-image" />
                    </div>
                    <div className="card-component">
                      <h5 className="black-text center">Skynet</h5>
