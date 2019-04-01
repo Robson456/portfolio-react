@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Bg from '../img/bg2.svg'
+import Bg from '../img/bg2.webp'
 import Projects from './Projects'
 
 export default class Home extends Component {
