@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import Bg from '../img/bg2.webp'
+import Bg from '../img/bg2.png'
 import Projects from './Projects'
-import Footer from './Footer';
 
 export default class Home extends Component {
   render() {
