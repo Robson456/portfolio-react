@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import Phaser from '../img/phaser.webp'
-import Python from '../img/python.webp'
-import react from '../img/react.webp'
-import Materialize from '../img/materialize.webp'
-import Bootstrap from '../img/bootstrap.webp'
+import Phaser from '../img/phaser.png'
+import Python from '../img/python.png'
+import react from '../img/react.png'
+import Materialize from '../img/materialize.png'
+import Bootstrap from '../img/bootstrap.png'
 
 
 export default class About extends Component {
