@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import Phaser from '../img/phaser.webp'
-import Python from '../img/python.webp'
-import react from '../img/react.webp'
-import Materialize from '../img/materialize.webp'
-import Bootstrap from '../img/bootstrap.webp'
+import Phaser from '../img/phaser.png'
+import Python from '../img/python.png'
+import react from '../img/react.png'
+import Materialize from '../img/materialize.png'
+import Bootstrap from '../img/bootstrap.png'
 
 
 export default class About extends Component {
@@ -12,7 +12,7 @@ export default class About extends Component {
       <div className="container">
         <h3 className="center">About me </h3>
           <blockquote>
-            <p className="flow-text">Hello, I am 19 years old and am a student and I am a frontend developer for fun.</p>
+            <p className="flow-text">Hello, I am 19 years old student and a frontend developer for fun.</p>
 
           </blockquote>
             <div className="center ">
