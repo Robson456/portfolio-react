@@ -12,7 +12,7 @@ export default class About extends Component {
       <div className="container">
         <h3 className="center">About me </h3>
           <blockquote>
-            <p className="flow-text">Hello, I am 19 years old and am a student and I am a frontend developer for fun.</p>
+            <p className="flow-text">Hello, I am 19 years old student and a frontend developer for fun.</p>
 
           </blockquote>
             <div className="center ">
