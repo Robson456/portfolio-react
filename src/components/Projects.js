@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Rick from '../img/Skynetv1.png'
 import Portfolio from '../img/Portfolio.png'
+import chase from '../img/chase.jpg'
 
 
 export default class Projects extends Component {
@@ -42,21 +43,21 @@ export default class Projects extends Component {
                  </div>
 
                </div>
-               {/* <div className="col s4">
+               <div className="col s4">
 
                   <div className="card z-depth-3">
                    <div className="card-image">
-                     <img src="" alt=""/>
+                     <img src={chase} alt=""/>
                    </div>
                    <div className="card-component">
-                      <h5 className="black-text center">Skynet</h5>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptas saepe quam illum eaque, commodi exercitationem et vel consequatur sequi autem fuga, impedit id delectus asperiores vero labore? Soluta, minus!</p>
+                      <h5 className="black-text center">Chase Young</h5>
+                      <p className="center">It's portfolio website made for imaginary photograper for educional purpose.</p>
                    </div>
                    <div className="card-action">
-                     <a href="#">This is a link</a>
+                     <a href="https://chaseyoung.netlify.app/">This is a link to Website</a>
                    </div>
                  </div>
-               </div> */}
+               </div>
              </div>
             
       </div>
