@@ -9,7 +9,7 @@ export default class Navbar extends Component {
       <div>
         <nav className="transparent">
             <div className="container">
-                <Link to="/" className="brand-logo black-text">Robson</Link>
+                <Link to="/" className="brand-logo black-text">Robert Przepiórka</Link>
                 <a href="#" data-target="mobile-demo" className ="sidenav-trigger right"><i className="material-icons" style={{color:'black'}}>menu</i></a>  
                 <ul className="right hide-on-med-and-down">
                     <li><Link to="/" className="black-text">Home</Link></li>
